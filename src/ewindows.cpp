@@ -2,7 +2,6 @@
 #include <iostream>
 #include <string>
 #include "save.hpp"
-#include <cctype>
 
 bool contains(std::string g, char b)
 {
@@ -25,7 +24,7 @@ int main()
     bool b = false;
     std::string g, k, g2;
     system("cls");
-    std::cout << "Ewindows(Emacs ripoff) version release 1.0" << std::endl << "------------------------------------------" << std::endl;
+    std::cout << "Ewindows(Emacs in Windows) version release 1.0" << std::endl << "----------------------------------------------" << std::endl;
     for(i = getch(); i != 0x13; i = getch())
     {
         g2 = g;
