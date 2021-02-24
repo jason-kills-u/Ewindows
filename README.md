@@ -1,5 +1,5 @@
 # Ewindows
-A simple text editor written in c++
+A simple text editor wrote in c++ for the windows operating system
 # How to build
 NOTE: This repository does NOT includes a c/c++ compiler and makefile.
 
