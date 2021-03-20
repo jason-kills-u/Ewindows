@@ -26,11 +26,11 @@ void delFile(std::string g)
 }
 void save(std::string g, std::string content)
 {
-	if(containsDot(g) == false)
-	{
-		g += std::string(".txt");
-	}
-	if(std::filesystem::exists(g))
+    if(containsDot(g) == false)
+    {
+	g += std::string(".txt");
+    }
+    if(std::filesystem::exists(g))
     {
     	delFile(g);
     	std::ofstream FILE(g);
