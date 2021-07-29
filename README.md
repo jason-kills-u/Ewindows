@@ -8,4 +8,4 @@ NOTE #1: This repository does NOT include a c/c++ compiler and make.
   make[1]: Leaving directory \`C:/blah/blah/Ewindows/src'
 2. Type ewindows and you are set to use!
 
-NOTE #2: If you don't use mingw, you can change "g++" in C:/blah/blah/Ewindows/src/Makefile to any c++ compiler you have, for example: zapcc, cl, clang, etc...
+NOTE #2: If you don't use mingw, you can change "g++" in C:/blah/blah/Ewindows/src/Makefile to any c++ compiler you have, for example: zapcc, cl, clang, etc...(just make sure it supports conio.h)
